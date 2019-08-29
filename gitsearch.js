@@ -20,7 +20,7 @@ function searchUser(){
             var dataBio = response.data.bio;
             console.log(dataBio)
             if (dataBio === null){
-                var userBio = document.createTextNode('Perfil sem bio!');    
+                var userBio = document.createTextNode('Profile without bio...');    
             } else{
                 var userBio = document.createTextNode(response.data.bio);
             }
